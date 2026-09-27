@@ -1,0 +1,6 @@
+
+快捷键	功能
+Ctrl + Tab	在最近打开的文件之间切换（最推荐！）
+Ctrl + PageDown / PageUp	在标签栏中左右切换文件
+Ctrl + P	快速打开文件（输入文件名跳转，超好用）
+Ctrl + Shift + Tab	反向切换最近文件

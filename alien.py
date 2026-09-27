@@ -1,0 +1,68 @@
+alien_0 = {'color':'green', 'points':5}
+
+print(alien_0['color'])
+print(alien_0['points'])
+
+new_points = alien_0['points']
+print(f'You just earned {new_points} points!')
+
+# 添加键值对
+print('\nAdding key-value pairs')
+
+print(alien_0)
+
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
+
+# 从创建一个空字典开始
+print('\nStart with an empty dictionary')
+
+alian_0 = {}
+print(alien_0)
+
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+
+print(alien_0)
+
+# 修改字典中的值
+print('\nModifying values in a dictionary')
+
+alien_0 = {'color': 'green'}
+print(f'The alien is {alien_0['color']}.')
+
+alien_0['color'] = 'yellow' 
+print(f'The alien is {alien_0['color']}.')
+
+# 对一个能以不同速度移动的外星人进行位置追踪
+print("\nTracking the alien's position")
+
+alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
+print(f"Original position: {alien_0['x_position']}")
+
+# 向右移动外星人 
+# 根据当前速度确定将外星人向右移动多远
+#alien_0['speed'] = 'fast'    #改变外星人的速度
+
+if alien_0['speed'] == 'slow':
+    x_increment = 1
+elif alien_0['speed'] == 'medium':
+    x_increment = 2
+else:
+    # 这个外星人移动速度为快
+    x_increment = 3
+
+# 新位置为旧位置加上移动距离
+alien_0['x_position'] = alien_0['x_position'] + x_increment
+
+print(f"New position: {alien_0['x_position']}")
+
+# 输出键值对
+print('\nRemoving key-value pairs')
+
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+del alien_0['points']
+print(alien_0)
